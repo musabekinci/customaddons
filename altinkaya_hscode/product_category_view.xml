@@ -6,7 +6,7 @@
             <field name="name">product.category_altinkaya1</field>
             <field name="model">product.category</field>
             <field name="inherit_id" ref="product.product_category_form_view"/>
-            <field name="type">form</field>
+            <field name="view_type">form</field>
             <field eval="17" name="priority"/>
             <field name="arch" type="xml">
                 <field name="type" position="after">

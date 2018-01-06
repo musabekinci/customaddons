@@ -6,7 +6,7 @@
           <field name="name">account.invoice.total.balance</field>
           <field name="model">account.invoice</field>
           <field name="inherit_id" ref="account.invoice_form"/>
-          <field name="type">form</field>
+          <field name="view_type">form</field>
           <field name="arch" type="xml">
           <field name="fiscal_position" position="after">
                <field name="total_balance" string="Total Balance"/>

@@ -17,7 +17,7 @@
 			</field>
 			<field eval="18" name="priority" />
 			<field name="model">stock.picking</field>
-			<field name="type">form</field>
+			<field name="view_type">form</field>
 		</record>
 
 

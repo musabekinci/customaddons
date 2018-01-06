@@ -4,7 +4,7 @@
         <record model="ir.ui.view" id="faxsend_account_form">
             <field name="name">faxsend.account.form</field>
             <field name="model">faxsend.account</field>
-            <field name="type">form</field>
+            <field name="view_type">form</field>
             <field name="arch" type="xml">
                 <form string="Send fax account" version="7.0">
                     <sheet>
@@ -46,7 +46,7 @@
         <record model="ir.ui.view" id="faxsend_queue_form">
             <field name="name">faxsend.queue.form</field>
             <field name="model">faxsend.queue</field>
-            <field name="type">form</field>
+            <field name="view_type">form</field>
             <field name="arch" type="xml">
                 <form string="Send fax queue" version="7.0">
                     <header>

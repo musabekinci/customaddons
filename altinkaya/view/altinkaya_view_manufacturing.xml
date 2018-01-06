@@ -10,7 +10,7 @@
 			</field>
 			<field eval="12" name="priority" />
 			<field name="model">mrp.production</field>
-			<field name="type">form</field>
+			<field name="view_type">form</field>
 		</record>
 	</data>
 	<data>
@@ -23,7 +23,7 @@
 			</field>
 			<field eval="14" name="priority" />
 			<field name="model">mrp.production</field>
-			<field name="type">form</field>
+			<field name="view_type">form</field>
 		</record>
 	</data>
 	<data>
@@ -42,7 +42,7 @@
 			</field>
 			<field eval="17" name="priority" />
 			<field name="model">mrp.production</field>
-			<field name="type">form</field>
+			<field name="view_type">form</field>
 		</record>
 	</data>
 
@@ -56,7 +56,7 @@
 			</field>
 			<field eval="17" name="priority" />
 			<field name="model">mrp.production</field>
-			<field name="type">form</field>
+			<field name="view_type">form</field>
 		</record>
 	</data>
 	<data>
@@ -72,7 +72,7 @@
 			</field>
 			<field eval="17" name="priority" />
 			<field name="model">mrp.production</field>
-			<field name="type">form</field>
+			<field name="view_type">form</field>
 		</record>
 	</data>
 	<data>
@@ -85,7 +85,7 @@
 			</field>
 			<field eval="17" name="priority" />
 			<field name="model">mrp.production</field>
-			<field name="type">form</field>
+			<field name="view_type">form</field>
 		</record>
 	</data>
 	<data>
@@ -101,7 +101,7 @@
 			</field>
 			<field eval="17" name="priority" />
 			<field name="model">mrp.production</field>
-			<field name="type">form</field>
+			<field name="view_type">form</field>
 		</record>
 	</data>
 

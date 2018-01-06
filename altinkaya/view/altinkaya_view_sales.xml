@@ -65,7 +65,7 @@
 			<field name="name">sale.order.altinkaya_sale_order_form1</field>
 			<field name="model">sale.order</field>
 			<field name="priority" eval="19" />
-			<field name="type">form</field>
+			<field name="view_type">form</field>
 			<field name="inherit_id" ref="sale.view_order_form" />
 			<field name="arch" type="xml">
 				<data>
@@ -83,14 +83,18 @@
 
 		<data>
 		<record id="ir_ui_view_accountinvoice_altinkaya_inherit0" model="ir.ui.view">
+			<field name="model">account.invoice</field>
+			<field name="view_type">form</field>
+            	<field eval="14" name="priority"/>
 			<field name="inherit_id" ref="account.invoice_form"/>
 			<field name="name">account.invoice.inherit_612</field>
-			<field name="arch" type="xml"><field name="partner_id" position="before">
-			<field name="address_contact_id" string="Teslimat Adresi" context="{'show_address': 1}" options="{&quot;always_reload&quot;: True}" /> </field>
-			</field>
-			<field eval="17" name="priority"/>
-			<field name="model">account.invoice</field>
-			<field name="type">form</field>
+            <field name="arch" type="xml"><field name="partner_id" position="before">
+                <field name="carrier_id"></field>
+                <field name="address_contact_id" string="Teslimat Adresi" context="{'show_address': 1}" options="{&quot;always_reload&quot;: True}" />
+                </field>
+
+            </field>
+
 		</record>
     </data>
 
@@ -103,7 +107,7 @@
             </field>
             <field eval="5" name="priority"/>
             <field name="model">sale.order</field>
-            <field name="type">form</field>
+            <field name="view_type">form</field>
         </record>
     </data>
 

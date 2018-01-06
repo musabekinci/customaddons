@@ -5,7 +5,7 @@
         <record model="ir.ui.view" id="wizard_partner_detail_form">
             <field name="name">wizard.partner.detail.form</field>
             <field name="model">wizard.partner.detail</field>
-            <field name="type">form</field>
+            <field name="view_type">form</field>
             <field name="arch" type="xml">
                 <form string="Partner Detail" version="7.0">
                     <group>
@@ -40,7 +40,7 @@
         <record model="ir.ui.view" id="customer_excel_form">
             <field name="name">customer.excel.form</field>
             <field name="model">customer.excel</field>
-            <field name="type">form</field>
+            <field name="view_type">form</field>
             <field name="arch" type="xml">
                 <form string="Customer Excel" version="7.0">
                     <group>

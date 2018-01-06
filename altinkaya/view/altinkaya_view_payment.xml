@@ -6,7 +6,7 @@
 			<field name="name">account.voucher.inherit_altinkaya_438</field>
 			<field eval="17" name="priority" />
 			<field name="inherit_id" ref="account_voucher.view_vendor_receipt_form"/>
-			<field name="type">form</field>
+			<field name="view_type">form</field>
 			<field eval="[(6,0,[])]" name="groups_id" />
 			<field name="arch"  type="xml">
 				<field name="type" position="after">

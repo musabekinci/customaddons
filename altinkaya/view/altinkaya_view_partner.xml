@@ -5,7 +5,7 @@
 		<record id="ir_ui_view_respartner_altinkaya2" model="ir.ui.view">
 			<field name="name">res.partner.altinkaya2</field>
 			<field name="model">res.partner</field>
-			<field name="type">form</field>
+			<field name="view_type">form</field>
 			<field eval="2" name="priority" />
 			<field name="inherit_id" ref="base.view_partner_form" />
 			<field name="arch" type="xml">
@@ -27,7 +27,7 @@
 			</field>
 			<field eval="5" name="priority" />
 			<field name="model">res.partner</field>
-			<field name="type">form</field>
+			<field name="view_type">form</field>
 		</record>
 
 		<record id="ir_ui_view_respartner_altinkaya_1" model="ir.ui.view">

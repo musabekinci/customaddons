@@ -25,7 +25,7 @@
             </field>
             <field eval="5" name="priority" />
             <field name="model">res.partner</field>
-            <field name="type">form</field>
+            <field name="view_type">form</field>
         </record>
 
         <record id="ir_ui_view_followup_altinkaya_1" model="ir.ui.view">
@@ -45,7 +45,7 @@
             </field>
             <field eval="5" name="priority" />
             <field name="model">res.partner</field>
-            <field name="type">form</field>
+            <field name="view_type">form</field>
         </record>
 
 
